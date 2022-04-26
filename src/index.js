@@ -1,11 +1,13 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
+import './index.css'
 
-function index(props) {
-    return (
-        <div>
-            
-        </div>
-    );
-}
+import { BrowserRouter as Router } from 'react-router-dom';
 
-export default index;
+import App from './App'
+
+ReactDOM.render(
+<Router><App /></Router>, document.getElementById("root"));
+
+
+
